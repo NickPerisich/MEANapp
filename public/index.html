@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>APO</title>
+    </head>
+    <body>
+        May Node and Express be with you.
+    </body>
+    <form action="/users/register" method="POST">
+        <input type="text" placeholder="name" name="name">
+        <input type="text" placeholder="email" name="email">
+        <input type="text" placeholder="username" name="username">
+        <input type="text" placeholder="password" name="password">
+        <button type="submit">Register</button>
+    </form>
+    <br>
+    <form action="/users/authenticate" method="POST">
+        <input type="text" placeholder="username" name="username">
+        <input type="text" placeholder="password" name="password">
+        <button type="submit">Authenticate</button>
+    </form>
+</html>

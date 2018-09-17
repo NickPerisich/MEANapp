@@ -1,0 +1,25 @@
+{
+  "name": "apoapp",
+  "version": "1.0.0",
+  "description": "hours",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "Nick Perisich",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "^4.16.3",
+    "jsonwebtoken": "*",
+    "mongodb": "^3.1.0-beta4",
+    "mongoose": "*",
+    "nodemon": "^1.17.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "*",
+    "passport-local": "^1.0.0"
+  }
+}
